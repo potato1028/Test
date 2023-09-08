@@ -2,10 +2,9 @@
 #pragma warning(disable : 4996)
 
 int main() {
-    int a;
-    scanf("%d", &a);
-    printf("%d", a);
-
-    printf("왜 안 돼\n");
+    int a, b;
+    printf("입력 : ");
+    scanf("%d %d", &a, &b);
+    printf("%d", a + b);
     return 0;
 }
